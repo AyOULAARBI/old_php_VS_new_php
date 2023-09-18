@@ -5,6 +5,7 @@ $fruits = [
     'banana',
     'cherry',
     'peach', //added a new fruit with a trailing comma
+    'watermalone', //another one
 ];
 
 function greet($name, $age,) {
