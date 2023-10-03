@@ -33,10 +33,10 @@ $array = [1,2];
 echo $b.$a."<br>";
 
 //we now have first class viratic functions
-function jm3Lmlawi(...$nums){
+function getSum(...$nums){
     echo array_sum($nums)."<br>";
 }
-jm3Lmlawi(1,2,3,4,5,6,7);
+getSum(1,2,3,4,5,6,7);
 
 // function add($a,$b,$c){
 //     echo "<br>".$a+$b+$c."<br>";
@@ -54,6 +54,7 @@ function lines($filename){
     }
     fclose($file);
 }
+//show the line on screen
 foreach(lines("schiba.txt") as $line){
     echo $line."<br>";
 }
